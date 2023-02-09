@@ -1,0 +1,27 @@
+{
+  "name": "lc_demo_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coyliu/lc_demo_cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "lc": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/coyliu/lc_demo_cli/issues"
+  },
+  "homepage": "https://github.com/coyliu/lc_demo_cli#readme",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "inquirer": "^9.1.4"
+  }
+}
