@@ -2,9 +2,7 @@
 const { program } = require("commander"); // 引入
 // const { chooseTemplate } = require("./inquirers.js");
 function start() {
-  console.log("你好,靓仔");
   program.version(require("./package.json").version); // 输出版对应的版本号
-
   program
     .command("create <projectName>")
     .description("用于创建一个项目模板")
